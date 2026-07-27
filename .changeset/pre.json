@@ -50,6 +50,8 @@
     "spec-3002-servinfo-meta",
     "standard-header-ows",
     "standard-schema-elicitation",
+    "streamable-http-sse-keepalive",
+    "validator-dialect-dispatch",
     "web-standard-bearer-auth",
     "web-standard-oauth-metadata",
     "workerd-schema-preload"

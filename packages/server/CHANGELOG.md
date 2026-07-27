@@ -1,5 +1,18 @@
 # @modelcontextprotocol/server
 
+## 2.0.0-beta.6
+
+### Minor Changes
+
+- [#2541](https://github.com/modelcontextprotocol/typescript-sdk/pull/2541) [`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Add configurable SSE keep-alive comment frames to Streamable HTTP transports and apply `createMcpHandler`'s existing `keepAliveMs` option to every HTTP SSE stream it serves.
+
+### Patch Changes
+
+- [#2534](https://github.com/modelcontextprotocol/typescript-sdk/pull/2534) [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c) Thanks [@felixweinberger](https://github.com/felixweinberger)! - The default validator now honors declared 2019-09 and draft-07/06 dialects instead of rejecting them: a schema stamped `"$schema": "http://json-schema.org/draft-07/schema#"` (zod-to-json-schema's default output) validates with draft-07 semantics, and a 2019-09 stamp (zod-to-json-schema's `2019-09`/`openAi` targets) with 2019-09 semantics, on both the Ajv and Cloudflare Workers providers (with known engine differences documented in the migration guide). Schemas with no `$schema` still validate as 2020-12, and unknown dialects still produce the typed error (now listing the supported dialects: 2020-12, 2019-09, draft-07, draft-06).
+
+- Updated dependencies []:
+    - @modelcontextprotocol/core@2.0.0-beta.6
+
 ## 2.0.0-beta.5
 
 ### Minor Changes

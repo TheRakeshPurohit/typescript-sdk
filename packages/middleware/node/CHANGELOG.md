@@ -1,5 +1,12 @@
 # @modelcontextprotocol/node
 
+## 2.0.0-beta.6
+
+### Patch Changes
+
+- Updated dependencies [[`470678d`](https://github.com/modelcontextprotocol/typescript-sdk/commit/470678d56b9ee2a365fcf6d3de21e3a8b32eeef5), [`f130e1a`](https://github.com/modelcontextprotocol/typescript-sdk/commit/f130e1ac5fcab34bd568f59907e0f2ce1d22074c)]:
+    - @modelcontextprotocol/server@2.0.0-beta.6
+
 ## 2.0.0-beta.5
 
 ### Patch Changes
